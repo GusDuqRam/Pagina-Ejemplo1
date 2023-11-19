@@ -2,6 +2,38 @@ p {
     font-style: italic;
 }
 
+h1{
+    font-family: Helvetica, sans-serif, arial;
+    text-align: center;
+}
+
+h2{
+    color: rgb(179, 29, 29);
+    background-color: #e1c4c4;
+}
+
+tr{
+    background-color: #e1c4c4;
+}
+
+/*Comentario CSS*/
+
+td{
+    /*background-color: #8b5555;*/
+}
+
+img{
+    float:center;
+}
+
+#colombia{
+    background-color: yellow;
+}
+
+#news{
+    background-color: #e0c9d9;
+}
+
 .news-content {
-    background-color: blue;
+    background-color: rgb(112, 112, 205);
 }
