@@ -1,11 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 p {
     font-style: italic;
+}
+
+a {
+    background-color: #44803F;
+    margin: 5px;
+    border-radius: 30px;
+    padding: 5px;
+
 }
 
 h1{
     font-family: Helvetica, sans-serif, arial;
     text-align: center;
-    background-color: #fce200;
+    background-color: #FFEC5C;
     /**border: solid 5px red;**/
     padding: 30px;
     margin-top: 10px;
@@ -13,12 +26,13 @@ h1{
 }
 
 h2{
-    color: rgb(179, 29, 29);
-    background-color: #e1c4c4;
+    color: #252524);
+    background-color: #B4CF66;
+    margin-top: 15px;
 }
 
 tr{
-    background-color: #e1c4c4;
+    background-color: #B4CF66;
 }
 
 /*Comentario CSS*/
@@ -36,9 +50,17 @@ img{
 }
 
 #news{
-    background-color: #e0c9d9;
+    background-color: #44803F;
 }
 
 .news-content {
-    background-color: rgb(112, 112, 205);
+    background-color: #146152;
+}
+
+.odd {
+    background-color: #886767;
+}
+
+.even {
+    background-color: #beadad;
 }
