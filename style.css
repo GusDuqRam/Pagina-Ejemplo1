@@ -5,6 +5,11 @@ p {
 h1{
     font-family: Helvetica, sans-serif, arial;
     text-align: center;
+    background-color: #fce200;
+    /**border: solid 5px red;**/
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 h2{
