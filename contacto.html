@@ -8,6 +8,12 @@
         <link rel="icon" href="img/favicon.png" type="image/x-icon">
         <title>Contacto - Pagina de Futbol</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
     <body>
         <header>
@@ -27,11 +33,22 @@
             <h3>Formulario de Contacto</h3>
 
             <form name="contacto" action="gracias.html" method="get">
-                Tu nombre:<input type="text" name="nombre" placeholder="pepito" required>
-                Tu email:<input type="email" name="email" placeholder="correo@prueba.com">
-                Mensaje:<textarea name="mensaje" cols="20" rows="5"></textarea>
-                <input type="submit" value="Enviar">
+                <label for="nombre">Tu nombre:</label>
+                <input class="form-control" type="text" name="nombre" placeholder="pepito" required>
+                <label for="email">Tu email:</label>
+                <input class="form-control" type="email" name="email" placeholder="correo@prueba.com">
+                Mensaje:<textarea class="form-control" name="mensaje" cols="20" rows="5"></textarea>
+                <input type="submit" value="Enviar" class="btn btn-primary">
             </form>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Radamel_Falcao_Garc%C3%ADa_%28cropped%29.jpg/250px-Radamel_Falcao_Garc%C3%ADa_%28cropped%29.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Radamel Falcao</h5>
+                  <p class="card-text">Jugador Colombiano</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
 
         </main>
         <footer>

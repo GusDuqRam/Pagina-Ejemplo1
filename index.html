@@ -6,40 +6,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta author="Gustavo Duque">
         <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
         <title>Inicio - Pagina de Futbol</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
     <body>
         <header>
             <h1>Futbol</h1>
 
-            <a href="index.html">Inicio</a>
-            <a href="goles.html">Goles</a>
-            <a href="tabla.html">Tabla de posiciones</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="https://www.fcf.com.co/" target="_blank">Sitio FCF</a>
+            <a href="index.html" class="btn btn-info">Inicio</a>
+            <a href="goles.html" class="btn btn-secondary">Goles</a>
+            <a href="tabla.html" class="btn btn-secondary">Tabla de posiciones</a>
+            <a href="contacto.html" class="btn btn-secondary">Contacto</a>
+            <a href="https://www.fcf.com.co/" class="btn btn-outline-warning" target="_blank">Sitio FCF</a>
         </header>
         <main>
             <h2>Bienvenida</h2>
             <img src="https://www.fcf.com.co/wp-content/uploads/2023/10/IMG_1121-1024x683.jpeg" alt="imagen de jugadores" width="50%" heigth="auto"> 
             <p>Bienvenida a una pagina de futbol</p>
 
+            <div id="ai-photo">
+                <img src="https://image.lexica.art/full_webp/33627a0c-2ef9-46ec-bc45-527865e1c834" alt="futbolista seleccion colombia" width="20%" height="auto">
+            </div>
+
             <h2>Ultimas Noticias</h2>
 
             <div id="news">
 
-                <div id="news-1" class="news">
+                <div id="news-1" class="news" >
                     <h3>Colombia empato con Uruguay</h3>
                     <p>Publicado hace 5 horas</p>
                     <p class="news-content">En su visita a la ciudad de Quito, de este martes y en partido correspondiente a la fecha 4 de las Eliminatorias Sudamericanas al Mundial de Estados Unidos, México y Canadá 2026, la Selección Colombia solamente se vino con un punto ante el 0-0 con Ecuador, en un duelo en el que bien pudo haberse alzado con la victoria.</p>
                 </div>
 
-                <div id="news-2" class="news">
+                <div id="news-2" class="news" >
                     <h3>Colombia empato con Ecuador</h3>
                     <p>Publicado hace 21 horas</p>
                     <p class="news-content">En su visita a la ciudad de Quito, de este martes y en partido correspondiente a la fecha 4 de las Eliminatorias Sudamericanas al Mundial de Estados Unidos, México y Canadá 2026, la Selección Colombia solamente se vino con un punto ante el 0-0 con Ecuador, en un duelo en el que bien pudo haberse alzado con la victoria.</p>
                     <div>Recibe un descuento</div>
                 </div>
+
+                <div id="news-3" class="news">
+                    <h3>Colombia empato con Ecuador</h3>
+                    <p>Publicado hace 3 horas</p>
+                    <p class="news-content">Colombia sigue invicta.</p>
+                    <div>Recibe un descuento</div>
+                </div>
+
             </div>
 
             <h3>Jugadores</h3>

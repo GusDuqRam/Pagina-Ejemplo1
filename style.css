@@ -1,6 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0;*/
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -49,8 +50,18 @@ img{
     background-color: yellow;
 }
 
+#main-photo {
+
+}
+
+#ai-photo{
+    display: none;
+}
+
 #news{
     background-color: #44803F;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .news-content {
